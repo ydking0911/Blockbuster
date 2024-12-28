@@ -1,0 +1,17 @@
+name: Blockbuster
+version: '${project.version}'
+main: com.yd.blockbuster.Blockbuster
+api-version: '1.21'
+commands:
+  게임시작:
+    description: 블록 버스터 게임을 시작합니다.
+    usage: /게임시작
+  config:
+    description: 보급품을 설정합니다.
+    usage: /config
+  게임끝:
+    description: 블록 버스터 게임을 종료합니다.
+    usage: /게임끝
+  맵초기화:
+    description: 백업된 맵 초기화
+    usage: /맵초기화
